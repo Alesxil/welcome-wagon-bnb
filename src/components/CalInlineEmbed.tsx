@@ -37,7 +37,7 @@ export function CalInlineEmbed({ className }: { className?: string }) {
               p(api, arguments);
             };
             const namespace = ar[1];
-            api.q = api.q || [];
+            api.q = api.q || ([] as any[]);
             if (typeof namespace === "string") {
               cal.ns[namespace] = cal.ns[namespace] || api;
               p(cal.ns[namespace], ar);

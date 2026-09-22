@@ -173,7 +173,7 @@ const seed: Omit<Listing, "image">[] = [
 
 export const listings: Listing[] = seed.map((l, i) => ({
   ...l,
-  image: images[i % images.length],
+  image: images[i % images.length]!,
 }));
 
 export const categories = [

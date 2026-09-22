@@ -28,7 +28,7 @@ export function CalInlineEmbed({ className }: { className?: string }) {
           const ar = arguments;
           if (!cal.loaded) {
             cal.ns = {};
-            cal.q = cal.q || [];
+            cal.q = cal.q || ([] as any[]);
             d.head.appendChild(d.createElement("script")).src = A;
             cal.loaded = true;
           }

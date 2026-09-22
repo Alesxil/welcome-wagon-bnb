@@ -22,14 +22,12 @@ export function SiteFooter() {
           <p className="font-semibold">Falar connosco</p>
           <ul className="mt-3 space-y-2 text-muted-foreground">
             <li>
-              <a
+              <Link
                 className="underline underline-offset-4 hover:text-foreground"
-                href="https://cal.com/alexandre-silva-8tsynl/airnbnb-pitch"
-                target="_blank"
-                rel="noreferrer"
+                to="/agenda"
               >
                 Agendar uma demo
-              </a>
+              </Link>
             </li>
             <li>Imprensa e parcerias</li>
           </ul>

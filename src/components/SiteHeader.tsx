@@ -87,6 +87,12 @@ export function SiteHeader({
         )}
 
         <div className="ml-auto flex items-center gap-2">
+          <Link
+            to="/agenda"
+            className="hidden rounded-full px-4 py-2 text-sm font-medium hover:bg-secondary md:inline-block"
+          >
+            Agendar demo
+          </Link>
           <span className="hidden rounded-full px-4 py-2 text-sm font-medium hover:bg-secondary md:inline">
             Seja anfitrião
           </span>

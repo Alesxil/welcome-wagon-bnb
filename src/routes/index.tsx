@@ -141,6 +141,7 @@ function Index() {
       </div>
 
       <SiteFooter />
+      <SupportChat />
     </div>
   );
 }

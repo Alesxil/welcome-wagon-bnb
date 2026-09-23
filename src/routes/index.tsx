@@ -3,6 +3,7 @@ import { useMemo, useState } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { ListingCard } from "@/components/ListingCard";
+import { SupportChat } from "@/components/SupportChat";
 import { categories, listings } from "@/data/listings";
 
 export const Route = createFileRoute("/")({
